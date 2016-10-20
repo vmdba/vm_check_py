@@ -8,8 +8,8 @@
 
 If this setup in on Fedora, the following are needed.
 
--0yum install postgresql-server
--yum install redhat-rpm-config
--yum install python-devel
--yum install postgresql-devel
--pip install psycopg2
+- yum install postgresql-server
+- yum install redhat-rpm-config
+- yum install python-devel
+- yum install postgresql-devel
+- pip install psycopg2
