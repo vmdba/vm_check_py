@@ -3,7 +3,7 @@
 - python 2.7.x https://www.python.org/download/releases/2.7/
 - pip   - https://pip.pypa.io/en/stable/installing/
 - psycopg2   - http://initd.org/psycopg/
-- psutil 
+- psutil (pip install psutil)
 
 
 If this setup in on Fedora, the following are needed.
