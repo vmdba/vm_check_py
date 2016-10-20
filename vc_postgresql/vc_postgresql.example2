@@ -1,0 +1,717 @@
+
+
+####################################################################################################
+#      vCenter Proactive Check Tool - python version                                               #
+#      Disclaimer: Use this tool at your own risk and the tool does not associated with companies  #
+####################################################################################################
+
+
+Hostname           :  localhost.localdomain
+IP address         :  127.0.0.1
+Operating System   :  Linux-4.5.7-200.fc23.x86_64-x86_64-with-fedora-23-Twenty_Three
+Processor          :  x86_64
+Python version     :  2.7.11
+CPU Cycle          :  scputimes(user=1836.47, nice=14.55, system=1512.37, idle=199640.06, iowait=435.6, irq=0.0, softirq=82.15, steal=0.0, guest=0.0, guest_nice=0.0)
+CPU Usage 2        :  scputimes(user=0.8, nice=0.0, system=0.8, idle=98.5, iowait=0.0, irq=0.0, softirq=0.0, steal=0.0, guest=0.0, guest_nice=0.0)
+Memory             :  svmem(total=2079293440, available=411992064, percent=80.2, used=1925357568, free=153935872, active=611901440, inactive=697810944, buffers=14692352, cached=243363840, shared=8986624)
+Disk Usage         :  sdiskusage(total=39502622720, used=6499897344, free=30972473344, percent=17.3)
+Note               :  Please refer to Op Metric for supportability
+Op Metric URL      :  https://www.vmware.com/resources/compatibility/sim/interop_matrix.php
+vCenter Version    :  (553, 'VirtualCenter Database 5.5')
+Current Database   :  ('vcdb',)
+Current User       :  ('postgres',)
+Currrent schema    :  ('public',)
+Current psql time  :  (datetime.date(2016, 10, 18),)
+PostgreSQL version :  ('PostgreSQL 9.2.9 on x86_64-unknown-linux-gnu, compiled by gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-4), 64-bit',)
+Script ran         :  Tue Oct 18 15:40:42 2016
+Number of Hosts    :  5
+Number of VMs      :  151
+
+
+Hist Stats Tables                  Number of rows
+_________________________________________________
+vpx_hist_stat1_1     --------------->  0                   
+vpx_hist_stat1_10    --------------->  0                   
+vpx_hist_stat1_100   --------------->  0                   
+vpx_hist_stat1_101   --------------->  0                   
+vpx_hist_stat1_102   --------------->  0                   
+vpx_hist_stat1_103   --------------->  0                   
+vpx_hist_stat1_104   --------------->  0                   
+vpx_hist_stat1_105   --------------->  0                   
+vpx_hist_stat1_106   --------------->  0                   
+vpx_hist_stat1_107   --------------->  0                   
+vpx_hist_stat1_108   --------------->  0                   
+vpx_hist_stat1_109   --------------->  0                   
+vpx_hist_stat1_11    --------------->  0                   
+vpx_hist_stat1_110   --------------->  0                   
+vpx_hist_stat1_111   --------------->  0                   
+vpx_hist_stat1_112   --------------->  0                   
+vpx_hist_stat1_113   --------------->  0                   
+vpx_hist_stat1_114   --------------->  0                   
+vpx_hist_stat1_115   --------------->  0                   
+vpx_hist_stat1_116   --------------->  0                   
+vpx_hist_stat1_117   --------------->  0                   
+vpx_hist_stat1_118   --------------->  0                   
+vpx_hist_stat1_119   --------------->  0                   
+vpx_hist_stat1_12    --------------->  0                   
+vpx_hist_stat1_120   --------------->  0                   
+vpx_hist_stat1_121   --------------->  0                   
+vpx_hist_stat1_122   --------------->  0                   
+vpx_hist_stat1_123   --------------->  0                   
+vpx_hist_stat1_124   --------------->  0                   
+vpx_hist_stat1_125   --------------->  0                   
+vpx_hist_stat1_126   --------------->  0                   
+vpx_hist_stat1_127   --------------->  0                   
+vpx_hist_stat1_128   --------------->  0                   
+vpx_hist_stat1_129   --------------->  0                   
+vpx_hist_stat1_13    --------------->  0                   
+vpx_hist_stat1_130   --------------->  45440               
+vpx_hist_stat1_131   --------------->  45448               
+vpx_hist_stat1_132   --------------->  45452               
+vpx_hist_stat1_133   --------------->  45463               
+vpx_hist_stat1_134   --------------->  45464               
+vpx_hist_stat1_135   --------------->  45433               
+vpx_hist_stat1_136   --------------->  45426               
+vpx_hist_stat1_137   --------------->  45421               
+vpx_hist_stat1_138   --------------->  45429               
+vpx_hist_stat1_139   --------------->  45449               
+vpx_hist_stat1_14    --------------->  0                   
+vpx_hist_stat1_140   --------------->  45369               
+vpx_hist_stat1_141   --------------->  45424               
+vpx_hist_stat1_142   --------------->  45461               
+vpx_hist_stat1_143   --------------->  45437               
+vpx_hist_stat1_144   --------------->  45437               
+vpx_hist_stat1_145   --------------->  45457               
+vpx_hist_stat1_146   --------------->  45454               
+vpx_hist_stat1_147   --------------->  45407               
+vpx_hist_stat1_148   --------------->  45314               
+vpx_hist_stat1_149   --------------->  45297               
+vpx_hist_stat1_15    --------------->  0                   
+vpx_hist_stat1_150   --------------->  45326               
+vpx_hist_stat1_151   --------------->  45320               
+vpx_hist_stat1_152   --------------->  45363               
+vpx_hist_stat1_153   --------------->  45290               
+vpx_hist_stat1_154   --------------->  45342               
+vpx_hist_stat1_155   --------------->  45300               
+vpx_hist_stat1_156   --------------->  45301               
+vpx_hist_stat1_157   --------------->  45344               
+vpx_hist_stat1_158   --------------->  45372               
+vpx_hist_stat1_159   --------------->  45361               
+vpx_hist_stat1_16    --------------->  0                   
+vpx_hist_stat1_160   --------------->  45354               
+vpx_hist_stat1_161   --------------->  45378               
+vpx_hist_stat1_162   --------------->  45360               
+vpx_hist_stat1_163   --------------->  45385               
+vpx_hist_stat1_164   --------------->  45408               
+vpx_hist_stat1_165   --------------->  45406               
+vpx_hist_stat1_166   --------------->  45442               
+vpx_hist_stat1_167   --------------->  45477               
+vpx_hist_stat1_168   --------------->  45435               
+vpx_hist_stat1_169   --------------->  45496               
+vpx_hist_stat1_17    --------------->  0                   
+vpx_hist_stat1_170   --------------->  45488               
+vpx_hist_stat1_171   --------------->  45474               
+vpx_hist_stat1_172   --------------->  45426               
+vpx_hist_stat1_173   --------------->  45479               
+vpx_hist_stat1_174   --------------->  45483               
+vpx_hist_stat1_175   --------------->  45445               
+vpx_hist_stat1_176   --------------->  45436               
+vpx_hist_stat1_177   --------------->  45457               
+vpx_hist_stat1_178   --------------->  5885                
+vpx_hist_stat1_179   --------------->  0                   
+vpx_hist_stat1_18    --------------->  0                   
+vpx_hist_stat1_180   --------------->  0                   
+vpx_hist_stat1_181   --------------->  0                   
+vpx_hist_stat1_182   --------------->  0                   
+vpx_hist_stat1_183   --------------->  0                   
+vpx_hist_stat1_184   --------------->  0                   
+vpx_hist_stat1_185   --------------->  0                   
+vpx_hist_stat1_186   --------------->  0                   
+vpx_hist_stat1_187   --------------->  0                   
+vpx_hist_stat1_188   --------------->  0                   
+vpx_hist_stat1_189   --------------->  0                   
+vpx_hist_stat1_19    --------------->  0                   
+vpx_hist_stat1_190   --------------->  0                   
+vpx_hist_stat1_191   --------------->  0                   
+vpx_hist_stat1_192   --------------->  0                   
+vpx_hist_stat1_193   --------------->  0                   
+vpx_hist_stat1_194   --------------->  0                   
+vpx_hist_stat1_195   --------------->  0                   
+vpx_hist_stat1_196   --------------->  0                   
+vpx_hist_stat1_197   --------------->  0                   
+vpx_hist_stat1_198   --------------->  0                   
+vpx_hist_stat1_199   --------------->  0                   
+vpx_hist_stat1_2     --------------->  0                   
+vpx_hist_stat1_20    --------------->  0                   
+vpx_hist_stat1_200   --------------->  0                   
+vpx_hist_stat1_201   --------------->  0                   
+vpx_hist_stat1_202   --------------->  0                   
+vpx_hist_stat1_203   --------------->  0                   
+vpx_hist_stat1_204   --------------->  0                   
+vpx_hist_stat1_205   --------------->  0                   
+vpx_hist_stat1_206   --------------->  0                   
+vpx_hist_stat1_207   --------------->  0                   
+vpx_hist_stat1_208   --------------->  0                   
+vpx_hist_stat1_209   --------------->  0                   
+vpx_hist_stat1_21    --------------->  0                   
+vpx_hist_stat1_210   --------------->  0                   
+vpx_hist_stat1_211   --------------->  0                   
+vpx_hist_stat1_212   --------------->  0                   
+vpx_hist_stat1_213   --------------->  0                   
+vpx_hist_stat1_214   --------------->  0                   
+vpx_hist_stat1_215   --------------->  0                   
+vpx_hist_stat1_216   --------------->  0                   
+vpx_hist_stat1_217   --------------->  0                   
+vpx_hist_stat1_218   --------------->  0                   
+vpx_hist_stat1_219   --------------->  0                   
+vpx_hist_stat1_22    --------------->  0                   
+vpx_hist_stat1_220   --------------->  0                   
+vpx_hist_stat1_221   --------------->  0                   
+vpx_hist_stat1_222   --------------->  0                   
+vpx_hist_stat1_223   --------------->  0                   
+vpx_hist_stat1_224   --------------->  0                   
+vpx_hist_stat1_225   --------------->  0                   
+vpx_hist_stat1_226   --------------->  0                   
+vpx_hist_stat1_227   --------------->  0                   
+vpx_hist_stat1_228   --------------->  0                   
+vpx_hist_stat1_229   --------------->  0                   
+vpx_hist_stat1_23    --------------->  0                   
+vpx_hist_stat1_230   --------------->  0                   
+vpx_hist_stat1_231   --------------->  0                   
+vpx_hist_stat1_232   --------------->  0                   
+vpx_hist_stat1_233   --------------->  0                   
+vpx_hist_stat1_234   --------------->  0                   
+vpx_hist_stat1_235   --------------->  0                   
+vpx_hist_stat1_236   --------------->  0                   
+vpx_hist_stat1_237   --------------->  0                   
+vpx_hist_stat1_238   --------------->  0                   
+vpx_hist_stat1_239   --------------->  0                   
+vpx_hist_stat1_24    --------------->  0                   
+vpx_hist_stat1_240   --------------->  0                   
+vpx_hist_stat1_241   --------------->  0                   
+vpx_hist_stat1_25    --------------->  0                   
+vpx_hist_stat1_26    --------------->  0                   
+vpx_hist_stat1_27    --------------->  0                   
+vpx_hist_stat1_28    --------------->  0                   
+vpx_hist_stat1_29    --------------->  0                   
+vpx_hist_stat1_3     --------------->  0                   
+vpx_hist_stat1_30    --------------->  0                   
+vpx_hist_stat1_31    --------------->  0                   
+vpx_hist_stat1_32    --------------->  0                   
+vpx_hist_stat1_33    --------------->  0                   
+vpx_hist_stat1_34    --------------->  0                   
+vpx_hist_stat1_35    --------------->  0                   
+vpx_hist_stat1_36    --------------->  0                   
+vpx_hist_stat1_37    --------------->  0                   
+vpx_hist_stat1_38    --------------->  0                   
+vpx_hist_stat1_39    --------------->  0                   
+vpx_hist_stat1_4     --------------->  0                   
+vpx_hist_stat1_40    --------------->  0                   
+vpx_hist_stat1_41    --------------->  0                   
+vpx_hist_stat1_42    --------------->  0                   
+vpx_hist_stat1_43    --------------->  0                   
+vpx_hist_stat1_44    --------------->  0                   
+vpx_hist_stat1_45    --------------->  0                   
+vpx_hist_stat1_46    --------------->  0                   
+vpx_hist_stat1_47    --------------->  0                   
+vpx_hist_stat1_48    --------------->  0                   
+vpx_hist_stat1_49    --------------->  0                   
+vpx_hist_stat1_5     --------------->  0                   
+vpx_hist_stat1_50    --------------->  0                   
+vpx_hist_stat1_51    --------------->  0                   
+vpx_hist_stat1_52    --------------->  0                   
+vpx_hist_stat1_53    --------------->  0                   
+vpx_hist_stat1_54    --------------->  0                   
+vpx_hist_stat1_55    --------------->  0                   
+vpx_hist_stat1_56    --------------->  0                   
+vpx_hist_stat1_57    --------------->  0                   
+vpx_hist_stat1_58    --------------->  0                   
+vpx_hist_stat1_59    --------------->  0                   
+vpx_hist_stat1_6     --------------->  0                   
+vpx_hist_stat1_60    --------------->  0                   
+vpx_hist_stat1_61    --------------->  0                   
+vpx_hist_stat1_62    --------------->  0                   
+vpx_hist_stat1_63    --------------->  0                   
+vpx_hist_stat1_64    --------------->  0                   
+vpx_hist_stat1_65    --------------->  0                   
+vpx_hist_stat1_66    --------------->  0                   
+vpx_hist_stat1_67    --------------->  0                   
+vpx_hist_stat1_68    --------------->  0                   
+vpx_hist_stat1_69    --------------->  0                   
+vpx_hist_stat1_7     --------------->  0                   
+vpx_hist_stat1_70    --------------->  0                   
+vpx_hist_stat1_71    --------------->  0                   
+vpx_hist_stat1_72    --------------->  0                   
+vpx_hist_stat1_73    --------------->  0                   
+vpx_hist_stat1_74    --------------->  0                   
+vpx_hist_stat1_75    --------------->  0                   
+vpx_hist_stat1_76    --------------->  0                   
+vpx_hist_stat1_77    --------------->  0                   
+vpx_hist_stat1_78    --------------->  0                   
+vpx_hist_stat1_79    --------------->  0                   
+vpx_hist_stat1_8     --------------->  0                   
+vpx_hist_stat1_80    --------------->  0                   
+vpx_hist_stat1_81    --------------->  0                   
+vpx_hist_stat1_82    --------------->  0                   
+vpx_hist_stat1_83    --------------->  0                   
+vpx_hist_stat1_84    --------------->  0                   
+vpx_hist_stat1_85    --------------->  0                   
+vpx_hist_stat1_86    --------------->  0                   
+vpx_hist_stat1_87    --------------->  0                   
+vpx_hist_stat1_88    --------------->  0                   
+vpx_hist_stat1_89    --------------->  0                   
+vpx_hist_stat1_9     --------------->  0                   
+vpx_hist_stat1_90    --------------->  0                   
+vpx_hist_stat1_91    --------------->  0                   
+vpx_hist_stat1_92    --------------->  0                   
+vpx_hist_stat1_93    --------------->  0                   
+vpx_hist_stat1_94    --------------->  0                   
+vpx_hist_stat1_95    --------------->  0                   
+vpx_hist_stat1_96    --------------->  0                   
+vpx_hist_stat1_97    --------------->  0                   
+vpx_hist_stat1_98    --------------->  0                   
+vpx_hist_stat1_99    --------------->  0                   
+vpx_hist_stat2_1     --------------->  9102                
+vpx_hist_stat2_10    --------------->  12017               
+vpx_hist_stat2_11    --------------->  12011               
+vpx_hist_stat2_12    --------------->  12020               
+vpx_hist_stat2_13    --------------->  12030               
+vpx_hist_stat2_14    --------------->  12022               
+vpx_hist_stat2_15    --------------->  12019               
+vpx_hist_stat2_16    --------------->  12011               
+vpx_hist_stat2_17    --------------->  12007               
+vpx_hist_stat2_18    --------------->  12013               
+vpx_hist_stat2_19    --------------->  12021               
+vpx_hist_stat2_2     --------------->  0                   
+vpx_hist_stat2_20    --------------->  12034               
+vpx_hist_stat2_21    --------------->  12030               
+vpx_hist_stat2_22    --------------->  12022               
+vpx_hist_stat2_23    --------------->  12025               
+vpx_hist_stat2_24    --------------->  12037               
+vpx_hist_stat2_25    --------------->  12049               
+vpx_hist_stat2_26    --------------->  12036               
+vpx_hist_stat2_27    --------------->  12019               
+vpx_hist_stat2_28    --------------->  12023               
+vpx_hist_stat2_29    --------------->  12029               
+vpx_hist_stat2_3     --------------->  0                   
+vpx_hist_stat2_30    --------------->  12030               
+vpx_hist_stat2_31    --------------->  12031               
+vpx_hist_stat2_32    --------------->  12033               
+vpx_hist_stat2_33    --------------->  12026               
+vpx_hist_stat2_34    --------------->  12024               
+vpx_hist_stat2_35    --------------->  12022               
+vpx_hist_stat2_36    --------------->  12035               
+vpx_hist_stat2_37    --------------->  12033               
+vpx_hist_stat2_38    --------------->  12017               
+vpx_hist_stat2_39    --------------->  12023               
+vpx_hist_stat2_4     --------------->  0                   
+vpx_hist_stat2_40    --------------->  12028               
+vpx_hist_stat2_41    --------------->  12022               
+vpx_hist_stat2_42    --------------->  12020               
+vpx_hist_stat2_43    --------------->  12023               
+vpx_hist_stat2_44    --------------->  12028               
+vpx_hist_stat2_45    --------------->  12023               
+vpx_hist_stat2_46    --------------->  12030               
+vpx_hist_stat2_47    --------------->  12052               
+vpx_hist_stat2_48    --------------->  12058               
+vpx_hist_stat2_49    --------------->  12073               
+vpx_hist_stat2_5     --------------->  0                   
+vpx_hist_stat2_50    --------------->  12043               
+vpx_hist_stat2_51    --------------->  12043               
+vpx_hist_stat2_52    --------------->  12047               
+vpx_hist_stat2_53    --------------->  12048               
+vpx_hist_stat2_54    --------------->  12052               
+vpx_hist_stat2_55    --------------->  12056               
+vpx_hist_stat2_56    --------------->  12155               
+vpx_hist_stat2_57    --------------->  12151               
+vpx_hist_stat2_58    --------------->  12145               
+vpx_hist_stat2_59    --------------->  12142               
+vpx_hist_stat2_6     --------------->  0                   
+vpx_hist_stat2_60    --------------->  12152               
+vpx_hist_stat2_61    --------------->  12155               
+vpx_hist_stat2_62    --------------->  12130               
+vpx_hist_stat2_63    --------------->  12126               
+vpx_hist_stat2_64    --------------->  12136               
+vpx_hist_stat2_65    --------------->  12141               
+vpx_hist_stat2_66    --------------->  12141               
+vpx_hist_stat2_67    --------------->  12146               
+vpx_hist_stat2_68    --------------->  12150               
+vpx_hist_stat2_69    --------------->  12147               
+vpx_hist_stat2_7     --------------->  0                   
+vpx_hist_stat2_70    --------------->  12140               
+vpx_hist_stat2_71    --------------->  12139               
+vpx_hist_stat2_72    --------------->  12148               
+vpx_hist_stat2_73    --------------->  12145               
+vpx_hist_stat2_74    --------------->  12125               
+vpx_hist_stat2_75    --------------->  12125               
+vpx_hist_stat2_76    --------------->  12139               
+vpx_hist_stat2_77    --------------->  12139               
+vpx_hist_stat2_78    --------------->  12144               
+vpx_hist_stat2_79    --------------->  12150               
+vpx_hist_stat2_8     --------------->  12022               
+vpx_hist_stat2_80    --------------->  12153               
+vpx_hist_stat2_81    --------------->  12149               
+vpx_hist_stat2_82    --------------->  12147               
+vpx_hist_stat2_83    --------------->  12145               
+vpx_hist_stat2_84    --------------->  12154               
+vpx_hist_stat2_85    --------------->  12149               
+vpx_hist_stat2_9     --------------->  12017               
+vpx_hist_stat3_1     --------------->  327712              
+vpx_hist_stat3_10    --------------->  36200               
+vpx_hist_stat3_11    --------------->  36274               
+vpx_hist_stat3_12    --------------->  36485               
+vpx_hist_stat3_13    --------------->  36474               
+vpx_hist_stat3_14    --------------->  36475               
+vpx_hist_stat3_15    --------------->  36461               
+vpx_hist_stat3_16    --------------->  36433               
+vpx_hist_stat3_17    --------------->  36257               
+vpx_hist_stat3_18    --------------->  36052               
+vpx_hist_stat3_19    --------------->  36049               
+vpx_hist_stat3_2     --------------->  295469              
+vpx_hist_stat3_20    --------------->  36063               
+vpx_hist_stat3_21    --------------->  36102               
+vpx_hist_stat3_22    --------------->  36082               
+vpx_hist_stat3_23    --------------->  36178               
+vpx_hist_stat3_24    --------------->  36421               
+vpx_hist_stat3_25    --------------->  36424               
+vpx_hist_stat3_26    --------------->  12149               
+vpx_hist_stat3_27    --------------->  0                   
+vpx_hist_stat3_28    --------------->  327369              
+vpx_hist_stat3_29    --------------->  327517              
+vpx_hist_stat3_3     --------------->  327092              
+vpx_hist_stat3_30    --------------->  327588              
+vpx_hist_stat3_31    --------------->  327312              
+vpx_hist_stat3_32    --------------->  327787              
+vpx_hist_stat3_4     --------------->  326944              
+vpx_hist_stat3_5     --------------->  326929              
+vpx_hist_stat3_6     --------------->  326992              
+vpx_hist_stat3_7     --------------->  327177              
+vpx_hist_stat3_8     --------------->  327107              
+vpx_hist_stat3_9     --------------->  133112              
+vpx_hist_stat4_1     --------------->  0                   
+vpx_hist_stat4_10    --------------->  0                   
+vpx_hist_stat4_100   --------------->  0                   
+vpx_hist_stat4_101   --------------->  0                   
+vpx_hist_stat4_102   --------------->  0                   
+vpx_hist_stat4_103   --------------->  0                   
+vpx_hist_stat4_104   --------------->  0                   
+vpx_hist_stat4_105   --------------->  0                   
+vpx_hist_stat4_106   --------------->  0                   
+vpx_hist_stat4_107   --------------->  0                   
+vpx_hist_stat4_108   --------------->  0                   
+vpx_hist_stat4_109   --------------->  0                   
+vpx_hist_stat4_11    --------------->  0                   
+vpx_hist_stat4_110   --------------->  0                   
+vpx_hist_stat4_111   --------------->  0                   
+vpx_hist_stat4_112   --------------->  0                   
+vpx_hist_stat4_113   --------------->  0                   
+vpx_hist_stat4_114   --------------->  0                   
+vpx_hist_stat4_115   --------------->  0                   
+vpx_hist_stat4_116   --------------->  0                   
+vpx_hist_stat4_117   --------------->  0                   
+vpx_hist_stat4_118   --------------->  0                   
+vpx_hist_stat4_119   --------------->  0                   
+vpx_hist_stat4_12    --------------->  0                   
+vpx_hist_stat4_120   --------------->  0                   
+vpx_hist_stat4_121   --------------->  0                   
+vpx_hist_stat4_122   --------------->  0                   
+vpx_hist_stat4_123   --------------->  0                   
+vpx_hist_stat4_124   --------------->  0                   
+vpx_hist_stat4_125   --------------->  0                   
+vpx_hist_stat4_126   --------------->  0                   
+vpx_hist_stat4_127   --------------->  0                   
+vpx_hist_stat4_128   --------------->  0                   
+vpx_hist_stat4_129   --------------->  0                   
+vpx_hist_stat4_13    --------------->  0                   
+vpx_hist_stat4_130   --------------->  0                   
+vpx_hist_stat4_131   --------------->  0                   
+vpx_hist_stat4_132   --------------->  0                   
+vpx_hist_stat4_133   --------------->  0                   
+vpx_hist_stat4_134   --------------->  0                   
+vpx_hist_stat4_135   --------------->  0                   
+vpx_hist_stat4_136   --------------->  0                   
+vpx_hist_stat4_137   --------------->  0                   
+vpx_hist_stat4_138   --------------->  0                   
+vpx_hist_stat4_139   --------------->  0                   
+vpx_hist_stat4_14    --------------->  0                   
+vpx_hist_stat4_140   --------------->  0                   
+vpx_hist_stat4_141   --------------->  0                   
+vpx_hist_stat4_142   --------------->  0                   
+vpx_hist_stat4_143   --------------->  0                   
+vpx_hist_stat4_144   --------------->  0                   
+vpx_hist_stat4_145   --------------->  0                   
+vpx_hist_stat4_146   --------------->  0                   
+vpx_hist_stat4_147   --------------->  0                   
+vpx_hist_stat4_148   --------------->  0                   
+vpx_hist_stat4_149   --------------->  0                   
+vpx_hist_stat4_15    --------------->  0                   
+vpx_hist_stat4_150   --------------->  0                   
+vpx_hist_stat4_151   --------------->  0                   
+vpx_hist_stat4_152   --------------->  0                   
+vpx_hist_stat4_153   --------------->  0                   
+vpx_hist_stat4_154   --------------->  0                   
+vpx_hist_stat4_155   --------------->  0                   
+vpx_hist_stat4_156   --------------->  0                   
+vpx_hist_stat4_157   --------------->  0                   
+vpx_hist_stat4_158   --------------->  0                   
+vpx_hist_stat4_159   --------------->  0                   
+vpx_hist_stat4_16    --------------->  0                   
+vpx_hist_stat4_160   --------------->  0                   
+vpx_hist_stat4_161   --------------->  0                   
+vpx_hist_stat4_162   --------------->  0                   
+vpx_hist_stat4_163   --------------->  0                   
+vpx_hist_stat4_164   --------------->  0                   
+vpx_hist_stat4_165   --------------->  0                   
+vpx_hist_stat4_166   --------------->  0                   
+vpx_hist_stat4_167   --------------->  0                   
+vpx_hist_stat4_168   --------------->  0                   
+vpx_hist_stat4_169   --------------->  0                   
+vpx_hist_stat4_17    --------------->  0                   
+vpx_hist_stat4_170   --------------->  0                   
+vpx_hist_stat4_171   --------------->  0                   
+vpx_hist_stat4_172   --------------->  0                   
+vpx_hist_stat4_173   --------------->  0                   
+vpx_hist_stat4_174   --------------->  0                   
+vpx_hist_stat4_175   --------------->  0                   
+vpx_hist_stat4_176   --------------->  0                   
+vpx_hist_stat4_177   --------------->  0                   
+vpx_hist_stat4_178   --------------->  0                   
+vpx_hist_stat4_179   --------------->  0                   
+vpx_hist_stat4_18    --------------->  0                   
+vpx_hist_stat4_180   --------------->  0                   
+vpx_hist_stat4_181   --------------->  0                   
+vpx_hist_stat4_182   --------------->  0                   
+vpx_hist_stat4_183   --------------->  0                   
+vpx_hist_stat4_19    --------------->  0                   
+vpx_hist_stat4_2     --------------->  0                   
+vpx_hist_stat4_20    --------------->  0                   
+vpx_hist_stat4_21    --------------->  0                   
+vpx_hist_stat4_22    --------------->  0                   
+vpx_hist_stat4_23    --------------->  0                   
+vpx_hist_stat4_24    --------------->  0                   
+vpx_hist_stat4_25    --------------->  0                   
+vpx_hist_stat4_26    --------------->  0                   
+vpx_hist_stat4_27    --------------->  0                   
+vpx_hist_stat4_28    --------------->  0                   
+vpx_hist_stat4_29    --------------->  0                   
+vpx_hist_stat4_3     --------------->  0                   
+vpx_hist_stat4_30    --------------->  0                   
+vpx_hist_stat4_31    --------------->  0                   
+vpx_hist_stat4_32    --------------->  0                   
+vpx_hist_stat4_33    --------------->  0                   
+vpx_hist_stat4_34    --------------->  0                   
+vpx_hist_stat4_35    --------------->  0                   
+vpx_hist_stat4_36    --------------->  0                   
+vpx_hist_stat4_37    --------------->  25352               
+vpx_hist_stat4_38    --------------->  24994               
+vpx_hist_stat4_39    --------------->  24813               
+vpx_hist_stat4_4     --------------->  0                   
+vpx_hist_stat4_40    --------------->  24962               
+vpx_hist_stat4_41    --------------->  24942               
+vpx_hist_stat4_42    --------------->  26091               
+vpx_hist_stat4_43    --------------->  27293               
+vpx_hist_stat4_44    --------------->  27015               
+vpx_hist_stat4_45    --------------->  26932               
+vpx_hist_stat4_46    --------------->  27222               
+vpx_hist_stat4_47    --------------->  27524               
+vpx_hist_stat4_48    --------------->  27844               
+vpx_hist_stat4_49    --------------->  28041               
+vpx_hist_stat4_5     --------------->  0                   
+vpx_hist_stat4_50    --------------->  28310               
+vpx_hist_stat4_51    --------------->  28394               
+vpx_hist_stat4_52    --------------->  28461               
+vpx_hist_stat4_53    --------------->  28272               
+vpx_hist_stat4_54    --------------->  28294               
+vpx_hist_stat4_55    --------------->  28500               
+vpx_hist_stat4_56    --------------->  28455               
+vpx_hist_stat4_57    --------------->  28664               
+vpx_hist_stat4_58    --------------->  28676               
+vpx_hist_stat4_59    --------------->  28480               
+vpx_hist_stat4_6     --------------->  0                   
+vpx_hist_stat4_60    --------------->  28631               
+vpx_hist_stat4_61    --------------->  28781               
+vpx_hist_stat4_62    --------------->  29172               
+vpx_hist_stat4_63    --------------->  29349               
+vpx_hist_stat4_64    --------------->  29580               
+vpx_hist_stat4_65    --------------->  29113               
+vpx_hist_stat4_66    --------------->  29116               
+vpx_hist_stat4_67    --------------->  29432               
+vpx_hist_stat4_68    --------------->  29774               
+vpx_hist_stat4_69    --------------->  29990               
+vpx_hist_stat4_7     --------------->  0                   
+vpx_hist_stat4_70    --------------->  30221               
+vpx_hist_stat4_71    --------------->  30225               
+vpx_hist_stat4_72    --------------->  30406               
+vpx_hist_stat4_73    --------------->  27293               
+vpx_hist_stat4_74    --------------->  0                   
+vpx_hist_stat4_75    --------------->  0                   
+vpx_hist_stat4_76    --------------->  0                   
+vpx_hist_stat4_77    --------------->  0                   
+vpx_hist_stat4_78    --------------->  0                   
+vpx_hist_stat4_79    --------------->  0                   
+vpx_hist_stat4_8     --------------->  0                   
+vpx_hist_stat4_80    --------------->  0                   
+vpx_hist_stat4_81    --------------->  0                   
+vpx_hist_stat4_82    --------------->  0                   
+vpx_hist_stat4_83    --------------->  0                   
+vpx_hist_stat4_84    --------------->  0                   
+vpx_hist_stat4_85    --------------->  0                   
+vpx_hist_stat4_86    --------------->  0                   
+vpx_hist_stat4_87    --------------->  0                   
+vpx_hist_stat4_88    --------------->  0                   
+vpx_hist_stat4_89    --------------->  0                   
+vpx_hist_stat4_9     --------------->  0                   
+vpx_hist_stat4_90    --------------->  0                   
+vpx_hist_stat4_91    --------------->  0                   
+vpx_hist_stat4_92    --------------->  0                   
+vpx_hist_stat4_93    --------------->  0                   
+vpx_hist_stat4_94    --------------->  0                   
+vpx_hist_stat4_95    --------------->  0                   
+vpx_hist_stat4_96    --------------->  0                   
+vpx_hist_stat4_97    --------------->  0                   
+vpx_hist_stat4_98    --------------->  0                   
+vpx_hist_stat4_99    --------------->  0                   
+
+
+Total Historical Statistics Table Count : 541
+
+
+
+
+Table Name                       Row Counts
+___________________________________________
+vpx_hist_stat1       --------------->  0    
+vpx_hist_stat2       --------------->  0    
+vpx_hist_stat3       --------------->  0    
+vpx_hist_stat4       --------------->  0    
+vpx_event            --------------->  1159830             
+vpx_event_arg        --------------->  5381860             
+vpx_stat_counter     --------------->  54668               
+vpx_task             --------------->  106627              
+vpx_topn_past_day    --------------->  224635              
+vpx_topn_past_month  --------------->  101739              
+vpx_topn_past_week   --------------->  47763               
+vpx_topn_past_year   --------------->  52286               
+
+
+Stat         Interval     Save      Stat   Enable          
+Type         Duration     Days      Level                  
+_______________________________________________________    
+PastYear     1440         365        1     ENABLED
+PastMonth    120          30         1     ENABLED
+PastWeek     30           7          1     ENABLED
+PastDay      1            1          1     ENABLED
+
+
+Events and Tasks           Days Kept     
+_________________________________________
+event Events have been set for 180  days.
+task Events have been set for 180  days.
+
+
+Procedure Name                          Proc Type      Owner     
+_________________________________________________________________
+calc_topn1_proc                          plpgsql         vpx  
+calc_topn2_proc                          plpgsql         vpx  
+calc_topn3_proc                          plpgsql         vpx  
+calc_topn4_proc                          plpgsql         vpx  
+cleanup_events_tasks_proc                plpgsql         vpx  
+clear_topn1_proc                         plpgsql         vpx  
+clear_topn2_proc                         plpgsql         vpx  
+clear_topn3_proc                         plpgsql         vpx  
+clear_topn4_proc                         plpgsql         vpx  
+delete_stats_proc                        plpgsql         vpx  
+insert_stats_proc                        plpgsql         vpx  
+l_purge_stat2_proc                       plpgsql         vpx  
+nuke                                     plpgsql         vpx  
+process_license_snapshot_proc            plpgsql         vpx  
+process_performance_data_proc            plpgsql         vpx  
+l_purge_stat3_proc                       plpgsql         vpx  
+l_stats_rollup1_proc                     plpgsql         vpx  
+l_stats_rollup2_proc                     plpgsql         vpx  
+l_stats_rollup3_proc                     plpgsql         vpx  
+load_stats_proc                          plpgsql         vpx  
+load_usage_stats_proc                    plpgsql         vpx  
+purge_stat2_proc                         plpgsql         vpx  
+purge_stat3_proc                         plpgsql         vpx  
+purge_usage_stat_proc                    plpgsql         vpx  
+rule_topn1_proc                          plpgsql         vpx  
+rule_topn2_proc                          plpgsql         vpx  
+rule_topn3_proc                          plpgsql         vpx  
+rule_topn4_proc                          plpgsql         vpx  
+sessionlock_func                         plpgsql         vpx  
+sessionsharedlock_func                   plpgsql         vpx  
+stats_rollup1_proc                       plpgsql         vpx  
+stats_rollup2_proc                       plpgsql         vpx  
+stats_rollup3_proc                       plpgsql         vpx  
+upsert_last_event_proc                   plpgsql         vpx  
+
+
+Job ID     Status     Last Run        
+______________________________________
+3          WAITING    2016-04-06 18:00:00
+4          WAITING    2016-04-02 00:00:00
+2          WAITING    2016-04-07 03:30:00
+1          WAITING    2016-04-07 18:29:00
+
+
+Table Size
+Table Name                Table pyhsical location                           Size
+________________________________________________________________________________
+vpx_event_arg             base/16384/16833                                   802696
+vpx_event                 base/16384/16827                                   154704
+vpx_text_array            base/16384/19286                                   141312
+vpx_task                  base/16384/19273                                   66336
+vpx_int_array             base/16384/18693                                   44328
+vpx_hist_stat3_30         base/16384/17994                                   15216
+vpx_hist_stat3_32         base/16384/18000                                   15216
+vpx_hist_stat3_28         base/16384/17985                                   15208
+vpx_hist_stat3_29         base/16384/17988                                   15208
+vpx_hist_stat3_1          base/16384/17925                                   15208
+
+
+Table Name      Live Tuples   Deleted Tuples   Dead Tuples  Auto Vacuumed  Last Analyze   
+___________________________________________________________________________________________
+vpx_event            1159833       0             0             0             2016-04-27 17:08:01.961425-04:00
+vpx_event_arg        5380384       0             0             0             2016-04-27 17:11:19.447855-04:00
+vpx_event_seq        1             0             0             0             None         
+vpx_event_arg_f1     0             0             0             0             None         
+vpx_event_arg_f2     0             0             0             0             None         
+vpx_event_arg_f3     0             0             0             0             None         
+vpx_event_f1         0             0             0             0             None         
+vpx_task             106627        0             0             0             2016-04-27 17:12:42.196428-04:00
+
+
+Table Name                            Last  Vacuum                         Last Autovacuum                            Last Analyze                            Last AutoAnalyze            
+__________________________________________________________________________________________________________________________________________________________________
+vpx_task                                 None                                     None                                     None                                     2016-04-27 17:12:42.196428-04:00        
+vpx_event_arg                            None                                     None                                     None                                     2016-04-27 17:11:19.447855-04:00        
+vpx_hist_stat3_32                        None                                     None                                     None                                     2016-04-27 17:11:34.623612-04:00        
+vpx_hist_stat3_1                         None                                     None                                     None                                     2016-04-27 17:11:05.668974-04:00        
+vpx_hist_stat3_28                        None                                     None                                     None                                     2016-04-27 17:11:16.817770-04:00        
+vpx_hist_stat3_30                        None                                     None                                     None                                     2016-04-27 17:11:28.655930-04:00        
+vpx_hist_stat3_29                        None                                     None                                     None                                     2016-04-27 17:11:22.700981-04:00        
+vpx_int_array                            None                                     None                                     None                                     2016-04-27 17:12:43.549801-04:00        
+vpx_event                                None                                     None                                     None                                     2016-04-27 17:08:01.961425-04:00        
+vpx_text_array                           None                                     None                                     None                                     2016-04-27 17:14:44.140780-04:00        
+
+
+Current XID, Current Snapshot XID
+_________________________________
+(6976L, '6976:6976:')
+
+
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 982M  4.0K  982M   1% /dev
+tmpfs                    992M  5.7M  986M   1% /dev/shm
+tmpfs                    992M  1.6M  990M   1% /run
+tmpfs                    992M     0  992M   0% /sys/fs/cgroup
+/dev/mapper/fedora-root   37G  6.1G   29G  18% /
+tmpfs                    992M  380K  992M   1% /tmp
+/dev/sda1                477M  164M  284M  37% /boot
+tmpfs                    199M   20K  199M   1% /run/user/42
+tmpfs                    199M   56K  199M   1% /run/user/1000
+
+
+
+Time Taken for the script to run : 0.0  seconds
