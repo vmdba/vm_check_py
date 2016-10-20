@@ -1,6 +1,6 @@
 #Requirements
 
-- python 2.7.x
+- python 2.7.x https://www.python.org/download/releases/2.7/
 - pip   - https://pip.pypa.io/en/stable/installing/
 - psycopg2   - http://initd.org/psycopg/
 - psutil 
